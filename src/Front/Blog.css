@@ -1,0 +1,70 @@
+.profile {
+  display: flex;
+  justify-content: space-evenly;
+}
+.profile button {
+  background-color: yellow;
+  padding: 40px 30px;
+  border: none;
+  border-radius: 4px;
+}
+.profile-form {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+.img-form {
+  margin-bottom: 10px;
+}
+.img-form input {
+  /*  */
+  width: 300px;
+  height: 30px;
+  margin-top: 10px;
+}
+.img-form label {
+  font-size: x-large;
+}
+.dis-form input {
+  width: 300px;
+  height: 30px;
+  margin-top: 10px;
+}
+.dis-form label {
+  font-size: x-large;
+}
+.btn-form {
+  display: flex;
+  margin-top: 10px;
+}
+.btn-form .save {
+  background-color: green;
+  padding: 10px 8px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+.btn-form .cancel {
+  background-color: skyblue;
+  padding: 10px 4px;
+  border: none;
+  border-radius: 4px;
+}
+.btn-form .delete {
+    background-color: red;
+    padding: 10px 4px;
+    border: none;
+    border-radius: 4px;
+  }
+.profile-img {
+  display: flex;
+  justify-content: space-around;
+  border: 1px dotted black;
+  margin-top: 50px;
+}
+
+.profile-img img {
+  width: 200px;
+}
